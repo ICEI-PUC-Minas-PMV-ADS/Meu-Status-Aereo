@@ -1,46 +1,40 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+As companhias aéreas começaram a oferecer mais serviços e confortos para os passageiros nas últimas décadas, junto a isso houve uma crescente prosperidade econômica entre a classe média, tornando assim as viagens de avião mais atraentes que os outros meios de transporte.
+De lá para cá, o avião se tornou uma das formas mais rápidas de se viajar em curtas e longas distâncias, e a sua demanda teve um aumento demasiado tornando esse meio de transporte um dos principais no mundo moderno.
+Houve um grande número de voos sendo processados a cada minuto e em consequência disso também um grande número de atrasos e até mesmo voos cancelados, causando um caos nos aeroportos e nos planos dos passageiros.
+ Com esse problema os aeroportos passaram a utilizar um método para auxiliar os passageiros, criando um quadro de horário que mudava de acordo com o voo que estava chegando e partindo, sendo esse um processo totalmente manual.
+A partir da década de 60 esse processo passou a ser eletrônico e com a evolução da tecnologia o quadro de horário passou a ser cada vez mais sofisticado, e como podemos ver hoje em dia nos aeroportos, um painel totalmente digital.
+Mesmo com toda essa tecnologia não é uma tarefa fácil achar rapidamente um display dos voos no aeroporto e quando, enfim, você acha um, perde-se um precioso tempo procurando seu voo naquele display com centenas de letras miúdas, sem contar que a tela muda rapidamente para outros voos.
+
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
+De acordo com as informações citadas acima, os problemas que buscamos solucionar é ter acesso às informações de maneira rápida e prática diante do quadro de horários no aeroporto e ter acesso a informações dos voos de qualquer lugar do mundo em tempo real.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+O objetivo do nosso projeto é criar um site ou aplicativo, com o nome "Meu Status Aéreo" que poderá te ajudar a encontrar seu voo rapidamente em qualquer lugar, usando um celular, Tablet ou até mesmo um notebook conectado à internet.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
+Busca-se também em nosso sistema:
+
+     - Escolher um determinado Aeroporto de uma determinada região e visualizar todos os voos cadastrados naquele aeroporto;
+     
+     - Saber o status completo de um determinado voo utilizando apenas o código de identificação do mesmo;
  
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+     - Visualizar o status do trânsito na cidade;
+ 
+     - Traçar uma linha do tempo entre o aeroporto de ponto de partida até o aeroporto de ponto de chegada.
+
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+Com base na proposta apresentada, a justificativa pode ser:
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+A criação do site ou aplicativo "Meu Status Aéreo" tem o potencial de oferecer uma solução prática e rápida para um problema comum enfrentado por passageiros que utilizam o transporte aéreo. Além disso, ao permitir o acesso a informações de voos em tempo real de qualquer lugar do mundo, o projeto pode contribuir para a otimização do tempo e redução de estresse dos usuários. Ao tornar as informações de voos mais acessíveis, também pode ajudar a reduzir a sobrecarga de atendentes de aeroportos e melhorar a organização geral do setor aéreo. Dessa forma, o projeto pode trazer benefícios não apenas para os indivíduos, mas também para a sociedade como um todo.
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+Quem nunca chegou atrasado no aeroporto e precisa saber rapidamente o status do seu voo?
+Nosso projeto destina-se a qualquer pessoa que esteja se direcionando a um voo e para qualquer outra pessoa que queira saber o status de um voo em qualquer lugar do mundo em tempo real.
