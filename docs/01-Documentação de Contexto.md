@@ -1,10 +1,15 @@
 # Introdução
 
 As companhias aéreas começaram a oferecer mais serviços e confortos para os passageiros nas últimas décadas, junto a isso houve uma crescente prosperidade econômica entre a classe média, tornando assim as viagens de avião mais atraentes que os outros meios de transporte.
+
 De lá para cá, o avião se tornou uma das formas mais rápidas de se viajar em curtas e longas distâncias, e a sua demanda teve um aumento demasiado tornando esse meio de transporte um dos principais no mundo moderno.
+
 Houve um grande número de voos sendo processados a cada minuto e em consequência disso também um grande número de atrasos e até mesmo voos cancelados, causando um caos nos aeroportos e nos planos dos passageiros.
+
  Com esse problema os aeroportos passaram a utilizar um método para auxiliar os passageiros, criando um quadro de horário que mudava de acordo com o voo que estava chegando e partindo, sendo esse um processo totalmente manual.
+ 
 A partir da década de 60 esse processo passou a ser eletrônico e com a evolução da tecnologia o quadro de horário passou a ser cada vez mais sofisticado, e como podemos ver hoje em dia nos aeroportos, um painel totalmente digital.
+
 Mesmo com toda essa tecnologia não é uma tarefa fácil achar rapidamente um display dos voos no aeroporto e quando, enfim, você acha um, perde-se um precioso tempo procurando seu voo naquele display com centenas de letras miúdas, sem contar que a tela muda rapidamente para outros voos.
 
 
