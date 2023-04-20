@@ -1,23 +1,25 @@
-# TÍTULO DO PROJETO
+# Meu Status Aéreo
 
-`CURSO`
+`Análise e Desenvolvimento de Sistemas`
 
-`DISCIPLINA`
+`Projeto: Desenvolvimento de Aplicação Web Front-End - Turma 10`
 
-`SEMESTRE`
+`Primeiro semestre - 01/2023`
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Felipe Simoes do Nascimento
+* Filipe Luiz Bento Bastos
+* Geovanne do Monte Ribeiro
+* Guilherme Germano Marroco
+* Jonathan Vaz de Avelar
+* Wendy Siqueira Xavier
 
 ## Orientador
 
-* Nome completo do professor 1
+* Vitor Mangaravite
 
 ## Instruções de utilização
 
