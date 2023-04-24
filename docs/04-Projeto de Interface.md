@@ -19,4 +19,24 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
  
  ![image](https://user-images.githubusercontent.com/106400702/233875848-6e065b68-f8aa-4083-a808-9b2bfba17018.png)
 
+### Tela - Home-Page
+
+A Tela Home-Page mostra o conteúdo principal do site. Com base na estrutura padrão, o bloco de Home-Page mostra os horários dos voos em tempo real e é possível escolher um determinado voo, aeroporto ou companhia aérea.
+
+![image](https://user-images.githubusercontent.com/106400702/233875920-330b56d5-7723-4bb6-bf40-4739842bedaf.png)
+
+### Tela - Cadastro
+
+A Tela Cadastro é utilizada para salvar dados de clientes e atualizá-los com informações importantes do seu voo e sobre o site.
+
+![image](https://user-images.githubusercontent.com/106400702/233875943-aad5b365-66a4-4d15-868c-8ccd78817962.png)
+
+### Tela - Meu voo
+
+A Tela Meu voo é utilizada para consultar um determinado voo. Com um número é possível acessar informações de Horários, Cancelamentos e qualquer outra atualização do seu voo.
+
+![image](https://user-images.githubusercontent.com/106400702/233875960-6164881a-3657-4663-98c3-a39e17588473.png)
+
+
+
  
