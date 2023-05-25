@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Status Aéreo</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body class="background-principal">
+  <aside class="menu">
+    <div class="conteudo-principal menu-conteudo">
+      <h2><a href="#"><img src="assets/img/logo_meu_status_aereo.svg" alt="Logo do Meu Status Aéreo"></h2>
+      <nav>
+        <ul>
+          <h2>
+            <li><a href="#">MEU VOO</a></li>
+          </h2>
+          <h2>
+            <li><a href="#">CADASTRO/LOGIN</a> </li>
+          </h2>
+
+        </ul>
+      </nav>
+    </div>
+
+  </aside>
+
+  <div class="espaçamento">
+    <h1></h1>
+  </div>
+  <main>
+    <main>
+      <table>
+        <thead>
+          <tr>
+            <th>COMPANHIAS AÉREAS</th>
+            <th>VOO</th>
+            <th>ORIGEM</th>
+            <th>ESCALA</th>
+            <th>DESTINO</th>
+            <th>DATA</th>
+            <th>PREVISTO</th>
+            <th>COMFIRMADO</th>
+            <th>STATUS DO VOO</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Azul Linhas Aéreas</td>
+            <td>AD4497</td>
+            <td>Minas Gerais</td>
+            <td>São Paulo</td>
+            <td>Santa Catarina</td>
+            <td>05/2023</td>
+            <td>10:00</td>
+            <td>10:30</td>
+            <td>Confirmado</td>
+          </tr>
+          <tr>
+            <td>Gol Linhas Aéreas</td>
+            <td>G35102</td>
+            <td>Rio de Janeiro</td>
+            <td>Brasília</td>
+            <td>São Paulo</td>
+            <td>05/2023</td>
+            <td>12:00</td>
+            <td>12:30</td>
+            <td>Confirmado</td>
+          </tr>
+          <tr>
+            <td>TAM Linhas Aéreas</td>
+            <td>JJ3122</td>
+            <td>Bahia</td>
+            <td>Minas Gerais</td>
+            <td>São Paulo</td>
+            <td>05/2023</td>
+            <td>14:00</td>
+            <td>14:30</td>
+            <td>Não confirmado</td>
+          </tr>
+          <tr>
+            <td>Azul Linhas Aéreas</td>
+            <td>AD5234</td>
+            <td>Amazonas</td>
+            <td>Pará</td>
+            <td>Mato Grosso</td>
+            <td>05/2023</td>
+            <td>16:00</td>
+            <td>16:30</td>
+            <td>Não confirmado</td>
+          </tr>
+          <tr>
+            <td>Gol Linhas Aéreas</td>
+            <td>G5576</td>
+            <td>Rio Grande do Sul</td>
+            <td>Santa Catarina</td>
+            <td>Paraná</td>
+            <td>05/2023</td>
+            <td>18:00</td>
+            <td>18:30</td>
+            <td>Confirmado</td>
+          </tr>
+          <tr>
+            <td>TAM Linhas Aéreas</td>
+            <td>JJ2211</td>
+            <td>Paraná</td>
+            <td>São Paulo</td>
+            <td>Rio de Janeiro</td>
+            <td>05/2023</td>
+            <td>20:00</td>
+            <td>20:30</td>
+            <td>Não confirmado</td>
+          </tr>
+          <tr>
+            <td>TAM Linhas Aéreas</td>
+            <td>JJ3122</td>
+            <td>Bahia</td>
+            <td>Minas Gerais</td>
+            <td>São Paulo</td>
+            <td>05/2023</td>
+            <td>14:00</td>
+            <td>14:30</td>
+            <td>Não confirmado</td>
+          </tr>
+          <tr>
+            <td>Azul Linhas Aéreas</td>
+            <td>AD5234</td>
+            <td>Amazonas</td>
+            <td>Pará</td>
+            <td>Mato Grosso</td>
+            <td>05/2023</td>
+            <td>16:00</td>
+            <td>16:30</td>
+            <td>Não confirmado</td>
+          </tr>
+          <tr>
+            <td>Gol Linhas Aéreas</td>
+            <td>G5576</td>
+            <td>Rio Grande do Sul</td>
+            <td>Santa Catarina</td>
+            <td>Paraná</td>
+            <td>05/2023</td>
+            <td>18:00</td>
+            <td>18:30</td>
+            <td>Confirmado</td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+
+
+  </main>
+
+  <section class="formulario">
+    <div class="input-numero">
+      <label for="numero-voo">Número do Voo:</label>
+      <input type="text" id="numero-voo" name="numero-voo">
+    </div>
+    <div class="input-aeroporto">
+      <label for="aeroporto">Aeroporto:</label>
+      <select id="aeroporto" name="aeroporto">
+        <option value="galeao">Galeão</option>
+        <option value="guarulhos">Guarulhos</option>
+        <option value="congonhas">Congonhas</option>
+      </select>
+    </div>
+    <div class="input-companhia">
+      <label for="companhia">Companhia Aérea:</label>
+      <select id="companhia" name="companhia">
+        <option value="gol">GOL</option>
+        <option value="latam">LATAM</option>
+        <option value="azul">AZUL</option>
+      </select>
+    </div>
+  </section>
+
+
+  <section class="section-mapa">
+    <h1>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63517258.86874696!2d-109.04515431170417!3d-13.670783668154536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9409341c355d34b5%3A0x69d40ccfc9c6e32b!2sAm%C3%A9rica%20do%20Sul!5e0!3m2!1spt-BR!2sbr!4v1684114351952!5m2!1spt-BR!2sbr" width="1200" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </h1>
+
+  </section>
+
+</body>
+
+</html>

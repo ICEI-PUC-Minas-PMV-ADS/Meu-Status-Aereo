@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+  
+}
+html{
+    font-size: 62.5%;
+    
+}
+
+body {
+    font-family: 'Helvetica', sans-serif;
+    color: black;
+    
+ 
+}
+
+h1 {
+    font-size: 2rem;
+    
+
+}
+
+h2 {
+    font-size: 1.6rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+h4 {
+    font-size: 1rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.background-principal {
+    background-color: gray;
+    
+}
+
+.menu-conteudo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu ul li a {
+    display: block;
+    padding: 2rem;
+    color: rgb(0, 0, 0);
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+
+.menu {
+    background-color: rgb(197, 201, 204);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    
+}
+
+.conteudo-principal {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+    
+}
+
+.section-tabela {
+    min-height: 60vh;
+    
+}
+
+.section-numero-voo {
+    min-height: 30vh;
+    
+}
+
+.section-mapa {
+    min-height: 50vh;
+    padding: 0 30px;
+    
+}
+
+.espaçamento {
+    height: 120px;
+
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 5px;
+    margin: 0 auto;
+    width: 90%;
+  }
+  
+   th, td {
+    background-color: #223e4e;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+  }
+
+
+  th:first-child {
+    background-color: rgb(20, 80, 136);
+  }
+  
+  th:first-child, td:first-child {
+    width: 20%;
+  }
+  
+  th:nth-child(2), td:nth-child(2) {
+    width: 10%;
+  }
+  
+  th:nth-child(3), td:nth-child(3), 
+  th:nth-child(4), td:nth-child(4), 
+  th:nth-child(5), td:nth-child(5) {
+    width: 15%;
+  }
+  
+  th:nth-child(6), td:nth-child(6) {
+    width: 10%;
+  }
+  
+  th:nth-child(7), td:nth-child(7),
+  th:nth-child(8), td:nth-child(8),
+  th:nth-child(9), td:nth-child(9) {
+    width: 8.33%;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  td {
+    width: 20px;
+    height:20px;
+  }
+
+  table td:nth-child(1) {
+    background-color: rgb(20, 80, 136);
+  }
+
+  table td:nth-child(1) ~ tr td {
+    background-color: rgb(11, 133, 247);
+  }
+
+  .formulario {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 10vh;
+    background-color: gray;
+    padding: 20px;
+  }
+  
+  .formulario label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .formulario input[type="text"],
+  .formulario select {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    font-size: 16px;
+  }
+  
+  .input-numero {
+    flex-basis: 30%;
+  }
+  
+  .input-aeroporto {
+    flex-basis: 35%;
+  }
+  
+  .input-companhia {
+    flex-basis: 30%;
+  }
+  
