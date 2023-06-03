@@ -2,188 +2,178 @@
 <html lang="pt-BR">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Meu Status Aéreo</title>
-  <link rel="stylesheet" href="assets/css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudos</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 </head>
 
-<body class="background-principal">
-  <aside class="menu">
-    <div class="conteudo-principal menu-conteudo">
-      <h2><a href="#"><img src="assets/img/logo_meu_status_aereo.svg" alt="Logo do Meu Status Aéreo"></h2>
-      <nav>
-        <ul>
-          <h2>
-            <li><a href="#">MEU VOO</a></li>
-          </h2>
-          <h2>
-            <li><a href="#">CADASTRO/LOGIN</a> </li>
-          </h2>
+<body class="bodycolor">
 
-        </ul>
-      </nav>
-    </div>
+    <header>
+        <nav class="navbar col-12 navbar-expand-lg navcolor mb-3">
+            <div class="container-fluid col-11 m-auto">
+                <a href="#" class="navbar-brand">
+                    <img src="assets/img/logo_meu_status_aereo.svg" class="img-fluid " alt="Logo Meu Status Aéreo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-lg-0 ">
+                        <li class="nav-item">
+                            <a class="nav-link " href="cadastro.html">Meu Voo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Cadastro/Login</a>
+                        </li>
 
-  </aside>
+                    </ul>
 
-  <div class="espaçamento">
-    <h1></h1>
-  </div>
-  <main>
-    <main>
-      <table>
-        <thead>
-          <tr>
-            <th>COMPANHIAS AÉREAS</th>
-            <th>VOO</th>
-            <th>ORIGEM</th>
-            <th>ESCALA</th>
-            <th>DESTINO</th>
-            <th>DATA</th>
-            <th>PREVISTO</th>
-            <th>COMFIRMADO</th>
-            <th>STATUS DO VOO</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Azul Linhas Aéreas</td>
-            <td>AD4497</td>
-            <td>Minas Gerais</td>
-            <td>São Paulo</td>
-            <td>Santa Catarina</td>
-            <td>05/2023</td>
-            <td>10:00</td>
-            <td>10:30</td>
-            <td>Confirmado</td>
-          </tr>
-          <tr>
-            <td>Gol Linhas Aéreas</td>
-            <td>G35102</td>
-            <td>Rio de Janeiro</td>
-            <td>Brasília</td>
-            <td>São Paulo</td>
-            <td>05/2023</td>
-            <td>12:00</td>
-            <td>12:30</td>
-            <td>Confirmado</td>
-          </tr>
-          <tr>
-            <td>TAM Linhas Aéreas</td>
-            <td>JJ3122</td>
-            <td>Bahia</td>
-            <td>Minas Gerais</td>
-            <td>São Paulo</td>
-            <td>05/2023</td>
-            <td>14:00</td>
-            <td>14:30</td>
-            <td>Não confirmado</td>
-          </tr>
-          <tr>
-            <td>Azul Linhas Aéreas</td>
-            <td>AD5234</td>
-            <td>Amazonas</td>
-            <td>Pará</td>
-            <td>Mato Grosso</td>
-            <td>05/2023</td>
-            <td>16:00</td>
-            <td>16:30</td>
-            <td>Não confirmado</td>
-          </tr>
-          <tr>
-            <td>Gol Linhas Aéreas</td>
-            <td>G5576</td>
-            <td>Rio Grande do Sul</td>
-            <td>Santa Catarina</td>
-            <td>Paraná</td>
-            <td>05/2023</td>
-            <td>18:00</td>
-            <td>18:30</td>
-            <td>Confirmado</td>
-          </tr>
-          <tr>
-            <td>TAM Linhas Aéreas</td>
-            <td>JJ2211</td>
-            <td>Paraná</td>
-            <td>São Paulo</td>
-            <td>Rio de Janeiro</td>
-            <td>05/2023</td>
-            <td>20:00</td>
-            <td>20:30</td>
-            <td>Não confirmado</td>
-          </tr>
-          <tr>
-            <td>TAM Linhas Aéreas</td>
-            <td>JJ3122</td>
-            <td>Bahia</td>
-            <td>Minas Gerais</td>
-            <td>São Paulo</td>
-            <td>05/2023</td>
-            <td>14:00</td>
-            <td>14:30</td>
-            <td>Não confirmado</td>
-          </tr>
-          <tr>
-            <td>Azul Linhas Aéreas</td>
-            <td>AD5234</td>
-            <td>Amazonas</td>
-            <td>Pará</td>
-            <td>Mato Grosso</td>
-            <td>05/2023</td>
-            <td>16:00</td>
-            <td>16:30</td>
-            <td>Não confirmado</td>
-          </tr>
-          <tr>
-            <td>Gol Linhas Aéreas</td>
-            <td>G5576</td>
-            <td>Rio Grande do Sul</td>
-            <td>Santa Catarina</td>
-            <td>Paraná</td>
-            <td>05/2023</td>
-            <td>18:00</td>
-            <td>18:30</td>
-            <td>Confirmado</td>
-          </tr>
-        </tbody>
-      </table>
-    </main>
+                </div>
+            </div>
+        </nav>
+        <div class="container d-flex justify-content-center">
+            <div class="table-responsive">
+                <table class="table  border-dark table-hover text-white">
+                    <thead>
+                        <tr>
+                            <th style="background-color: #257289" scope="col">Cia Aérea</th>
+                            <th style="background-color: #19404D" scope="col">Voo</th>
+                            <th style="background-color: #19404D" scope="col">Origem</th>
+                            <th style="background-color: #19404D" scope="col">Escala</th>
+                            <th style="background-color: #19404D" scope="col">Destino</th>
+                            <th style="background-color: #19404D" scope="col">Data</th>
+                            <th style="background-color: #19404D" scope="col">Previsto</th>
+                            <th style="background-color: #19404D" scope="col">Confirmado</th>
+                            <th style="background-color: #19404D" scope="col">Status </th>
+                        </tr>
+                    </thead>
+                    <tbody class="table-group-divider ">
+                        <tr>
+                            <th style="background-color: #257289" scope="row">Latam</th>
+                            <td style="background-color: #19404D">AD4497</td>
+                            <td style="background-color: #19404D">Minas Gerais</td>
+                            <td style="background-color: #19404D">São Paulo</td>
+                            <td style="background-color: #19404D">Santa Catarina</td>
+                            <td style="background-color: #19404D">25/05</td>
+                            <td style="background-color: #19404D">10:00</td>
+                            <td style="background-color: #19404D">10:30</td>
+                            <td style="background-color: #19404D">Confirmado</td>
+                        </tr>
+                        <tr>
+                            <th style="background-color: #257289" scope="row">Gol</th>
+                            <td style="background-color: #19404D">G35102</td>
+                            <td style="background-color: #19404D">Rio de janeiro</td>
+                            <td style="background-color: #19404D">Brasília</td>
+                            <td style="background-color: #19404D">São Paulo</td>
+                            <td style="background-color: #19404D">25/05</td>
+                            <td style="background-color: #19404D">09:00</td>
+                            <td style="background-color: #19404D">11:30</td>
+                            <td style="background-color: #19404D">Pátio</td>
+                        </tr>
+                        <tr>
+                            <th style="background-color: #257289" scope="row">Azul</th>
+                            <td style="background-color: #19404D">JJ3122</td>
+                            <td style="background-color: #19404D">Bahia</td>
+                            <td style="background-color: #19404D">Brasília</td>
+                            <td style="background-color: #19404D">São Luís</td>
+                            <td style="background-color: #19404D">23/05</td>
+                            <td style="background-color: #19404D">18:15</td>
+                            <td style="background-color: #19404D">19:05</td>
+                            <td style="background-color: #19404D">Atrasado</td>
+                        </tr>
+                        <tr>
+                            <th style="background-color: #257289" scope="row">Gol</th>
+                            <td style="background-color: #19404D">AD5234</td>
+                            <td style="background-color: #19404D">Amazonas</td>
+                            <td style="background-color: #19404D">Pará</td>
+                            <td style="background-color: #19404D">Matogrosso</td>
+                            <td style="background-color: #19404D">24/05</td>
+                            <td style="background-color: #19404D">00:15</td>
+                            <td style="background-color: #19404D">01:10</td>
+                            <td style="background-color: #19404D">Cancelado</td>
 
+                        </tr>
+                        <tr>
+                            <th style="background-color: #257289" scope="row">Gol</th>
+                            <td style="background-color: #19404D">G5576</td>
+                            <td style="background-color: #19404D">Rio Grande do Sul</td>
+                            <td style="background-color: #19404D">Santa Catarina</td>
+                            <td style="background-color: #19404D">Paraná</td>
+                            <td style="background-color: #19404D">23/05</td>
+                            <td style="background-color: #19404D">09:00</td>
+                            <td style="background-color: #19404D">09:15</td>
+                            <td style="background-color: #19404D">Finalizado</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
 
-  </main>
-
-  <section class="formulario">
-    <div class="input-numero">
-      <label for="numero-voo">Número do Voo:</label>
-      <input type="text" id="numero-voo" name="numero-voo">
-    </div>
-    <div class="input-aeroporto">
-      <label for="aeroporto">Aeroporto:</label>
-      <select id="aeroporto" name="aeroporto">
-        <option value="galeao">Galeão</option>
-        <option value="guarulhos">Guarulhos</option>
-        <option value="congonhas">Congonhas</option>
-      </select>
-    </div>
-    <div class="input-companhia">
-      <label for="companhia">Companhia Aérea:</label>
-      <select id="companhia" name="companhia">
-        <option value="gol">GOL</option>
-        <option value="latam">LATAM</option>
-        <option value="azul">AZUL</option>
-      </select>
-    </div>
-  </section>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-2  text-center"></div>
+                <div class="col-sm-8  text-center mb-3">
+                    <div class="container">
+                        <div class="row">
+                          <div class="col-sm-4  text-center mb-3">
+                            <input type="text" class="form-control input-sm" placeholder="Digite seu voo">
+                          </div>
+                          <div class="col-sm-4  text-center mb-3">
+                            <div class="dropdown">
+                                <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Aeroporto
+                                </a>
+                    
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Guarulhos</a></li>
+                                    <li><a class="dropdown-item" href="#">Galeão</a></li>
+                                    <li><a class="dropdown-item" href="#">Soantos Dumont</a></li>
+                                </ul>
+                            </div>
+                          </div>
+                          <div class="col-sm-4 text-center mb-3">
+                            <div class="dropdown">
+                                <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Companhia Aérea
+                                </a>
+                    
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Latam</a></li>
+                                    <li><a class="dropdown-item" href="#">Gol</a></li>
+                                    <li><a class="dropdown-item" href="#">Azul</a></li>
+                                </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-sm-2  text-center"></div>
+            </div>
+        </div>
+        
 
 
-  <section class="section-mapa">
-    <h1>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63517258.86874696!2d-109.04515431170417!3d-13.670783668154536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9409341c355d34b5%3A0x69d40ccfc9c6e32b!2sAm%C3%A9rica%20do%20Sul!5e0!3m2!1spt-BR!2sbr!4v1684114351952!5m2!1spt-BR!2sbr" width="1200" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </header>
 
-    </h1>
 
-  </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+        integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+        integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+        crossorigin="anonymous"></script>
+
 
 </body>
 
