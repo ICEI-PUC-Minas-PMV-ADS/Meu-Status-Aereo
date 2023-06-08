@@ -13,3 +13,7 @@
 .area-form {
 	height: 90vh;
 }
+
+a {
+  text-decoration: none;
+}
