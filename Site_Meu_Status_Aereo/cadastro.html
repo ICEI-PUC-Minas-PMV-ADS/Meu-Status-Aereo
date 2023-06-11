@@ -22,7 +22,7 @@
     <header>
         <nav class="navbar col-12 navbar-expand-lg navcolor mb-3">
             <div class="container-fluid col-11 m-auto">
-                <a href="#" class="navbar-brand">
+                <a href="home.html" class="navbar-brand">
                     <img src="assets/img/logo_meu_status_aereo.svg" class="img-fluid " alt="Logo Meu Status Aéreo">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -58,11 +58,11 @@
                 <a class="d-block text-dark text-center mb-2">ou crie uma nova conta</a>
                 <input type="text" class="form-control mb-2" placeholder="Nome Completo">
                 <input type="text" class="form-control mb-2" placeholder="Email">
-                <input type="text" class="form-control mb-2" placeholder="Login">
-                <input type="password" class="form-control mb-2" placeholder="Senha">
+                <input type="text" class="form-control mb-2" placeholder="Login" id="login">
+                <input type="password" class="form-control mb-2" placeholder="Senha" id="senha">
                 <div class="d-flex justify-content-between">
                     <button class="btn btn-dark">Cancelar</button>
-                    <button id="cadastrarBtn" class="btn btn-dark">Cadastrar</button>
+                    <input type="submit"class="btn btn-dark"value="Cadastrar" onclick="logar()">
                 </div>
             </div>
         </div>
@@ -78,54 +78,15 @@
 
 
     <script>
-        document.addEventListener("DOMContentLoaded", function() {
-          var cadastrarBtn = document.getElementById("cadastrarBtn");
-      
-          cadastrarBtn.addEventListener("click", function() {
-            var nome = document.getElementById("nome").value;
-            var email = document.getElementById("email").value;
-            var login = document.getElementById("login").value;
-            var senha = document.getElementById("senha").value;
-      
-            if (!campoPreenchido(nome)) {
-              alert("Por favor, preencha o campo Nome Completo.");
-              return;
+        function logar(){
+            var login = document.getElementById('login').value;
+            var senha = document.getElementById('senha').value;
+            
+            if (login == "admin" && senha == "1234"){
+                alert('Sucesso');
             }
-      
-            if (!campoPreenchido(email)) {
-              alert("Por favor, preencha o campo Email.");
-              return;
-            }
-      
-            if (!emailValido(email)) {
-              alert("Por favor, insira um email válido.");
-              return;
-            }
-      
-            if (!campoPreenchido(login)) {
-              alert("Por favor, preencha o campo Login.");
-              return;
-            }
-      
-            if (!campoPreenchido(senha)) {
-              alert("Por favor, preencha o campo Senha.");
-              return;
-            }
-      
-            if (!senhaAtendeRequisitos(senha)) {
-              alert("A senha deve ter pelo menos 6 caracteres.");
-              return;
-            }
-      
-            exibirMensagemSucesso();
-      
-            document.getElementById("nome").value = "";
-            document.getElementById("email").value = "";
-            document.getElementById("login").value = "";
-            document.getElementById("senha").value = "";
-          });
-        });
-      </script>
+        }
+    </script>
       
 
 
