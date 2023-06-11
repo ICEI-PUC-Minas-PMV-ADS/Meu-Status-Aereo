@@ -12,7 +12,20 @@ O template criado está disponível no site https://www.figma.com/file/lTAaoXAJT
 
 A responsividade segue o padrão do Bootstrap
 
+<h1> Tela Home</h1>
+Tela que a abrage a funcionalidade principal do site.
 
+![image](/docs/img/Tela%20Home.jpg)
+
+<h1> Tela Meu voo</h1>
+
+Este layout é utilizado para filtrar voos.
+![image](/docs/img/Tela%20Meu%20voo.jpg)
+
+<h1> Tela Cadastro</h1>
+
+Local onde é exibido a formulário de Cadastro ou Login.
+![image](/docs/img/Tela%20Cadastro.jpg)
 
 > **Links Úteis**:
 >
