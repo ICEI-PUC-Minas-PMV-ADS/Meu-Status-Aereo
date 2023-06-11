@@ -5,11 +5,14 @@
 Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
 ![image](/docs/img/Template%20do%20site%20-%20Meu%20Status%20A%C3%A9reo.jpg)
 O template criado está disponível no site https://www.figma.com/file/lTAaoXAJT9kGG3AjTF99jJ/Status-A%C3%A9reo?type=design&node-id=0%3A1&t=LL2jNGA3nuMhOWAA-1 e é composto pelos seguintes layouts:
+
 ● Tela Home
 ● Tela Meu voo
 ● Tela Cadastro/Login.
 
 A responsividade segue o padrão do Bootstrap
+
+
 
 > **Links Úteis**:
 >
