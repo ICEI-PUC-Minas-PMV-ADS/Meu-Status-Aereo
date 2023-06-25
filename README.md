@@ -10,12 +10,12 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Integrantes
 
-* Felipe Simoes do Nascimento
+
 * Filipe Luiz Bento Bastos
 * Geovanne do Monte Ribeiro
 * Guilherme Germano Marroco
 * Jonathan Vaz de Avelar
-* Wendy Siqueira Xavier
+
 
 ## Orientador
 
