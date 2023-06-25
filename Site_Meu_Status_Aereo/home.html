@@ -164,7 +164,44 @@
 
     </header>
 
-    COLOQUE O CODIGO AQUI
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+          var inputVoo = document.querySelector(".form-control.input-sm");
+          var tableRows = document.querySelectorAll("tbody tr");
+      
+          inputVoo.addEventListener("input", function() {
+            var filtro = inputVoo.value.trim().toLowerCase();
+      
+            tableRows.forEach(function(row) {
+              var voo = row.querySelector("td:nth-child(2)").textContent.trim().toLowerCase();
+      
+              if (voo.includes(filtro)) {
+                row.style.display = "";
+              } else {
+                row.style.display = "none";
+              }
+            });
+          });
+      
+          var dropdownItems = document.querySelectorAll(".dropdown-menu .dropdown-item");
+      
+          dropdownItems.forEach(function(item) {
+            item.addEventListener("click", function() {
+              var selectedAirline = this.textContent.trim().toLowerCase();
+      
+              tableRows.forEach(function(row) {
+                var airline = row.querySelector("th:nth-child(1)").textContent.trim().toLowerCase();
+      
+                if (airline === selectedAirline || selectedAirline === "companhia aérea") {
+                  row.style.display = "";
+                } else {
+                  row.style.display = "none";
+                }
+              });
+            });
+          });
+        });
+      </script>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
         integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
